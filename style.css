@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Montserrat:wght@500&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 500;
+  background-color: aliceblue;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.logo_and_text img{
+  width: 47px;
+  height: 47px;
+  margin-right: 13px;
+}
+
+form .logo_and_text{
+  display: inline-flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  background-color: aliceblue;
+}
+
+
+.logo_and_text{
+  margin: 10px 0;
+}
+
+.logo_and_text h1{
+  color: grey;
+}
+
+.center form{
+  padding: 0 40px 40px 40px;
+  background-color: white;
+}
+.signup_link{
+  font-size: 12px;
+  padding: 20px 20px 20px 0;
+}
+
+.signup_link a:link{
+  text-decoration: none;
+}
+
+.signup_link a:visited{
+  text-decoration: none;
+}
+
+.signup_link a:hover{
+  text-decoration: underline;
+  color: purple;
+}
+.signup_link a:active{
+  text-decoration: underline;
+}
+.signin_other_options{
+  font-size: 12px;
+  padding: 0 20px 20px 0;
+}
+
+.signin_other_options a:link {
+  text-decoration: none;
+}
+
+.signin_other_options a:visited {
+  text-decoration: none;
+}
+
+.signin_other_options a:hover {
+  text-decoration: underline;
+  color: purple;
+}
+
+.signin_other_options a:active {
+  text-decoration: underline;
+}
+
+.next_btn{
+  display: flex;
+  justify-content: right;
+}
+
+.text_feilds input{
+  position: relative;
+  width: 305px;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style:solid;
+  border-bottom-color: rgba(0,0,255,0.6);
+  outline: none
+}
+
+input[type="submit"]{
+  width: 30%;
+  height: 30px;
+  background-color: #1c72fc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+input[type="submit"]:hover{
+  background-color: #1552b3;
+  transition: 0.1s;
+}
+
+.sign_in_options{
+  display: flex;
+  justify-content: start;
+  background-color: white;
+  padding: 0 40px;
+  cursor: pointer;
+}
+.sign_in_options:hover{
+  background-color: rgba(128,128,128,0.1);
+}
+
+.sign_in_options img{
+  margin-top: 10px;
+  width: 30px;
+  height:30px;
+  margin-right: 10px;
+}
+
+.sign_in_options p{
+  font-size: 14px;
+}

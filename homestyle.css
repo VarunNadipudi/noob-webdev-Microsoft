@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Montserrat:wght@500&display=swap');
+
+
+.nav-item a:hover{
+    text-decoration: underline;
+}
+
+.carousel-item{
+    width: 100%;
+}
+.carousel{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.row{
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.container{
+    padding: 0;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.box-container{
+  padding-top: 60px;
+  display: flex;
+  justify-content:center;
+}
+
+.box-container .box{
+  padding: 10px;
+}
+
+.box-container .box .iconImage{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7px;
+}
+.box-container .box .iconContent{
+  display: flex;
+  justify-content: center;
+  width: 140px;
+}
+
+.box-container .box .iconContent a{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: #8a301c;
+  text-decoration: none;
+}
+
+.box-container .box .iconContent a:hover{
+  text-decoration: underline;
+  color: #8a301c;
+}
+
+.card-container{
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding: 20px 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card-container .crd{
+    position: relative;
+    width: 300px;
+}
+
+.card-container .crd img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-container .crd .content{
+    margin-top: 40px;
+}
+.card-container .crd .content p{
+    font-size: 14px;
+}
+
+.card-container .crd .content h4,a{
+    font-weight: 700;
+}
+
+.card-container .crd .content a{
+    text-decoration: none;
+    color: #8a301c;
+}
+
+.card-container .crd .content a:hover{
+    text-decoration: underline;
+    text-decoration-color: #8a301c;
+}
+
+/*this card-container2 is the second card series*/
+.card-container2{
+    margin-top: 0px;
+    box-sizing: border-box;
+    padding: 20px 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card-container2 .crd{
+    position: relative;
+    width: 300px;
+}
+
+.card-container2 .crd img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-container2 .crd .content{
+    margin-top: 40px;
+}
+.card-container2 .crd .content p{
+    font-size: 14px;
+}
+
+.card-container2 .crd .content h4,a{
+    font-weight: 700;
+}
+
+.card-container2 .crd .content a{
+    text-decoration: none;
+    color: #8a301c;
+}
+
+.card-container2 .crd .content a:hover{
+    text-decoration: underline;
+    text-decoration-color: #8a301c;
+}
+
+/*card-conatianer2 ends here*/
+
+
+.oneImage-container{
+    margin: 50px 70px;
+}
+
+.oneImage-container .oneImage{
+    width: 100%;
+}
+
+.oneImage-container .oneImage img{
+    width: 100%;
+}
+
+.heading-container{
+    margin: 50px 70px;
+    margin-bottom: 0px;
+}
+
+.heading-container .heading h3{
+    font-weight: 800;
+}
+
+
+.covidInfo-conatainer{
+    background-color: #e6e0e0;
+    margin: 40px 70px;
+    box-sizing: border-box;
+}
+
+.covidInfo-conatainer .covidInfo{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer-container{
+    background-color: #e6e0e0;
+    height: 400px;
+}
